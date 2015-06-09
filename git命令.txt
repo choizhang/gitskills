@@ -1,0 +1,13 @@
+git push origin HEAD:refs/heads/master  直接传到代码库，不用review
+
+git log --graph --pretty=oneline --decorate   查看远端代码库的提交情况
+
+git config -l   查看本地git的配置
+
+git log -4    查看本地最新的4条commit情况
+
+git rebase origin/master   加fetch等于pull，rebase会让显示更好
+
+git add -u .   将目录下地所有修改（包括删除）都增加
+
+git fetch  
